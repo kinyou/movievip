@@ -13,7 +13,7 @@
                         @foreach($movie as $value)
                         <div class="col-sm-3 col-md-3">
                             <div class="thumbnail">
-                                <a href="{{$vipUrl}}{{$value['movie_url']}}">
+                                <a href="{{$vipUrl}}{{$value['movie_url']}}" target="_blank">
                                     <img src="{{$value['thumb_url']}}" alt="{{$value['name']}}">
                                 </a>
 

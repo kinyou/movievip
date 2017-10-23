@@ -17,6 +17,7 @@ class Movie extends Model
         'movie_url',
         'actor',
         'view',
+        'source',
         'status'
     ];
 

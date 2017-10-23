@@ -36,7 +36,15 @@
                 <div class="collapse navbar-collapse" id="app-navbar-collapse">
                     <!-- Left Side Of Navbar -->
                     <ul class="nav navbar-nav">
-                        &nbsp;
+                        &nbsp;<li><a href="{{ route('login') }}">优酷</a></li>
+                        <li><a href="{{ route('login') }}">腾讯</a></li>
+                        <li><a href="{{ route('login') }}">爱奇艺</a></li>
+                        <li><a href="{{ route('login') }}">乐视</a></li>
+                        <li><a href="{{ route('login') }}">土豆</a></li>
+                        <li><a href="{{ route('login') }}">搜狐</a></li>
+                        <li><a href="{{ route('login') }}">芒果TV</a></li>
+                        <li><a href="{{ route('login') }}">反馈</a></li>
+                        <li><a href="{{ route('login') }}">关于</a></li>
                     </ul>
 
                     <!-- Right Side Of Navbar -->

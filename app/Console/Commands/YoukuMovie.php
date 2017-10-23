@@ -112,6 +112,7 @@ class YoukuMovie extends Command
             $tmp['movie_url'] = $data[0][0]['movie_url'][$key];
             $tmp['actor'] = $data[0][0]['actor'][$key];
             $tmp['view'] = $data[0][0]['view'][$key];
+            $tmp['source'] = 1;
             $movie[] = $tmp;
         }
 

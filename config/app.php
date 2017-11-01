@@ -176,6 +176,8 @@ return [
         // App\Providers\BroadcastServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
+        //基于谷歌浏览器的debug 调试工具
+        Clockwork\Support\Laravel\ClockworkServiceProvider::class,
 
     ],
 
@@ -225,7 +227,8 @@ return [
         'URL' => Illuminate\Support\Facades\URL::class,
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
-
+        //基于谷歌浏览器的debug 调试工具
+        'Clockwork' => Clockwork\Support\Laravel\Facade::class,
     ],
 
 ];

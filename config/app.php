@@ -178,6 +178,8 @@ return [
         App\Providers\RouteServiceProvider::class,
         //基于谷歌浏览器的debug 调试工具
         Clockwork\Support\Laravel\ClockworkServiceProvider::class,
+        //jwt-auth的token
+        Tymon\JWTAuth\Providers\LaravelServiceProvider::class,
 
     ],
 
@@ -229,6 +231,10 @@ return [
         'View' => Illuminate\Support\Facades\View::class,
         //基于谷歌浏览器的debug 调试工具
         'Clockwork' => Clockwork\Support\Laravel\Facade::class,
+        //jwt-auth的token
+        'JWTAuth' => Tymon\JWTAuth\Facades\JWTAuth::class,
+        'JWTFactory' => Tymon\JWTAuth\Facades\JWTFactory::class,
+
     ],
 
 ];
